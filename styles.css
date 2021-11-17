@@ -28,9 +28,8 @@ header h1{
 }
 div.login{
     position:absolute;
-    top: 60%;
+    top: 67%;
     font-size: 20px;
-    padding-top: 5%;
     /* inloggnings rutan till Fruktsallad */
 }
 .banner .welcome{
@@ -39,7 +38,7 @@ div.login{
     left: 60%;
     top: 15%;
     font-size: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
@@ -50,7 +49,7 @@ div.login{
 nav{
     background-color: gainsboro;
     position: sticky;
-    top: 80px;
+    top: 84px;
 }
 nav ul{
     white-space: nowrap;
@@ -58,10 +57,9 @@ nav ul{
     margin: 0 auto;
 }
 nav li{
-   width: 33%;
+   width: 25%;
    display: inline-block; 
-   font-size: 30px;
-   padding: 0px;
+   font-size: 25px;
    text-align: center;
 }
 nav li a{
@@ -87,11 +85,16 @@ main{
 article p{
     line-height: 1.2em;
 }
-body > main > ul > img{
+body > main > ul > li > img{
+    display: inline-block;
     text-align: center;
     margin: 80px 0;
     max-width: 60%;
     min-width: 60%;
+}
+body > main > ul > li > img:hover{
+    position: relative;
+    top: -4px;
 }
 footer{
     background-color: slategray;
@@ -124,3 +127,11 @@ body > footer > h2{
   form input:invalid{
       border: 4px solid red
   }
+  body > footer > p{
+    padding: 10px;
+    text-align: center;
+  }
+  ul{
+     list-style: none; 
+    }
+/* Får bort prickarna */
